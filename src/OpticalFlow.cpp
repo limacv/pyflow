@@ -9,11 +9,7 @@
 
 using namespace std;
 
-#ifndef _MATLAB
-	bool OpticalFlow::IsDisplay=true;
-#else
-	bool OpticalFlow::IsDisplay=false;
-#endif
+bool OpticalFlow::IsDisplay=false;
 
 //OpticalFlow::InterpolationMethod OpticalFlow::interpolation = OpticalFlow::Bicubic;
 OpticalFlow::InterpolationMethod OpticalFlow::interpolation = OpticalFlow::Bilinear;
